@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+'use strict';
+var game = new Phaser.Game(320, 480, Phaser.AUTO, '${1:divID}');
+
+game.state.add('${2:Stage}', ${2:Stage});
+game.state.start('${2:Stage}');
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
