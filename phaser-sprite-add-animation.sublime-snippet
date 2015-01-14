@@ -1,23 +1,8 @@
 <snippet>
 	<content><![CDATA[
-'use strict';
-var ${1:StageName} = function(game) {};
-
-${1:StageName}.prototype = {
-  init:function() {
-    //something before preload
-  }
-
-  preload: function() {
-    ${2}
-  },
-
-  create: function() {
-  },
-
-  update:function(){
-  }
-};
+animations.add('${1:name}', [
+        ${2:frames}
+    ], ${3:fps}, ${4:isLoop:true}, ${5:useIndex:false});
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<!-- <tabTrigger>hello</tabTrigger> -->

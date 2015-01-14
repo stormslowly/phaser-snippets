@@ -1,23 +1,6 @@
 <snippet>
 	<content><![CDATA[
-'use strict';
-var ${1:StageName} = function(game) {};
-
-${1:StageName}.prototype = {
-  init:function() {
-    //something before preload
-  }
-
-  preload: function() {
-    ${2}
-  },
-
-  create: function() {
-  },
-
-  update:function(){
-  }
-};
+game.state.add('${1:stateName}', ${1:stateName});
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<!-- <tabTrigger>hello</tabTrigger> -->

@@ -1,23 +1,7 @@
 <snippet>
 	<content><![CDATA[
-'use strict';
-var ${1:StageName} = function(game) {};
-
-${1:StageName}.prototype = {
-  init:function() {
-    //something before preload
-  }
-
-  preload: function() {
-    ${2}
-  },
-
-  create: function() {
-  },
-
-  update:function(){
-  }
-};
+${1:sprite}.checkWorldBounds = true;
+${1:sprite}.outOfBoundsKill = true;
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<!-- <tabTrigger>hello</tabTrigger> -->
