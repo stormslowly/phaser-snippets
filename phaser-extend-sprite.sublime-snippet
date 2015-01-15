@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+'use strict';
+
+function ${1:newSprite} (game, x, y) {
+  var self = this;
+  Phaser.Sprite.call(this, game, x, y, '${2:frame}');
+
+  game.add.existing(this);
+
+}
+
+${1:newSprite}.prototype = Object.create(Phaser.Sprite.prototype);
+${1:newSprite}.prototype.constructor = ${1:newSprite};
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
