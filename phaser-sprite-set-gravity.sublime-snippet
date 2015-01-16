@@ -1,15 +1,6 @@
 <snippet>
 	<content><![CDATA[
-'use strict';
-
-function ${1:newSprite} (game, x, y) {
-  var self = this;
-  Phaser.Sprite.call(this, game, x, y, '${2:frame}');
-}
-
-${1:newSprite}.prototype = Object.create(Phaser.Sprite.prototype);
-${1:newSprite}.prototype.constructor = ${1:newSprite};
-
+body.gravity.${1:direct(x,y)}=${2:speed};
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<!-- <tabTrigger>hello</tabTrigger> -->
