@@ -7,11 +7,13 @@ render: function() {
   this.game.debug.body(this.bar);
   // input debug info
   this.game.debug.inputInfo(32, 32);
+  // camera debug info
+  this.game.debug.cameraInfo(32,32);
 }
 
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<!-- <tabTrigger>hello</tabTrigger> -->
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+	<scope>source.js</scope>
 </snippet>

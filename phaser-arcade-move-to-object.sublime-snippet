@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-this.rnd.integerInRange(${1:includingMin}, ${2:includingMax})
+this.physics.arcade.moveToObject(${1:object},${2:target},${3:speed});
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<!-- <tabTrigger>hello</tabTrigger> -->
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.js</scope>
+	<!-- <scope>source.python</scope> -->
 </snippet>

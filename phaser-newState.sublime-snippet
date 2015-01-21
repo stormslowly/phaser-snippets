@@ -6,7 +6,7 @@ var ${1:StageName} = function(game) {};
 ${1:StageName}.prototype = {
   init:function() {
     //something before preload
-  }
+  },
 
   preload: function() {
     ${2}

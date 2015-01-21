@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-this.rnd.integerInRange(${1:includingMin}, ${2:includingMax})
+this.stage.setBackgroundColor('${1:#191919}');
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<!-- <tabTrigger>hello</tabTrigger> -->
