@@ -12,3 +12,4 @@ this.time.events.loop(
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
 </snippet>
+
