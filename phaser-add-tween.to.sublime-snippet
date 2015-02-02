@@ -3,7 +3,7 @@
 this.add.tween(${1:tweenee}).to( ${2:target}, ${3:duration}, Phaser.Easing.Linear.None, ${4:autoStart});
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<!-- <tabTrigger>hello</tabTrigger> -->
+	<tabTrigger>addtween</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
 </snippet>

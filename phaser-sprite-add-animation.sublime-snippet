@@ -5,7 +5,7 @@ animations.add('${1:name}', [
     ], ${3:fps}, ${4:isLoop:true}, ${5:useIndex:false});
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<!-- <tabTrigger>hello</tabTrigger> -->
+	<tabTrigger>addanimation</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
 </snippet>

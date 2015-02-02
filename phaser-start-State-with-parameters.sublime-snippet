@@ -1,6 +1,7 @@
 <snippet>
 	<content><![CDATA[
-this.state.start('${1:stateName}',${2:clearWorld(true)},${3:clearCache:falsee},{4:para4init});]]></content>
+this.state.start('${1:stateName}',${2:clearWorld(true)},${3:clearCache:falsee},{4:para4init});
+]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<!-- <tabTrigger>hello</tabTrigger> -->
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->

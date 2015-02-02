@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+${1:NewGroup} = function (game) {
+    Phaser.Group.call(this, game);
+};
+
+${1:NewGroup}.prototype = Object.create(Phaser.Group.prototype);
+${1:NewGroup}.prototype.constructor = ${1:NewGroup};
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>extendgroup</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
